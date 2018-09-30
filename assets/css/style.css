@@ -1,0 +1,201 @@
+.header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 80px;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("full-bloom.png");
+    width: 980;
+    margin:0;
+    height:100%;
+
+}
+
+.boxed {
+    position: relative;
+    background-color:#ffffff;
+    color: #777777;
+    padding:25px;
+    margin: 35px auto;
+}
+
+.profile-image {
+    float: left;
+    margin-right: 15px;
+}
+
+.About-ME {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+    
+.footer {
+    Position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: #666666;
+    color:white;
+    text-align:center;
+    border-top-color: #4aaaa5;
+    border-top-style:solid;
+    border-top:10px;
+}
+
+.box {
+    display: inline-block;
+    width:100px;
+    height:100px;
+    padding:5px;
+    border:1px solid black;
+}
+
+.portfolio-image {
+    display: inline;
+    padding: 15px
+
+}
+
+.portfolio-image-right {
+    margin-right: 300px;
+}
+
+.image-text {
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    height: 30px;
+    vertical-align: middle;
+    top: 62%;
+    width: 87%;
+    margin-left: 15px;
+}
+
+.image-box {
+    position: relative;
+    display: inline-block;
+}
+
+.image-box-right {
+    margin-right: 265px;
+}
+
+.first-text {
+    bottom: 447px;
+    left: 40px;    
+}
+
+.second-text {
+    bottom: 447px;
+    left: 274px; 
+}
+.third-text {
+    bottom: 253px;
+    left: 40px; 
+}
+.fourth-text {
+    bottom: 253px;
+    left: 274px;
+}
+.fifth-text {
+    bottom:60px;
+    left:40px;
+}
+.submit-button {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+a {
+    color: #cccccc;
+    text-decoration: none;
+}
+    
+.form-input {
+    width: 100%;
+}
+
+.form-textarea {
+    width: 100%;
+    height: 100px;
+}
+
+@media screen and (min-width:980px) {
+
+    .boxed{
+        width: 960px;    
+    }
+
+    .header-left {
+        display:inline-block;
+        color: #ffffff;
+        font-size: 50px;
+        padding-left: 180px;
+        
+    }
+    
+    .header-right {
+        float: right;
+        color: #cccccc;
+        padding-right: 235px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 979px){
+    #container{
+        width: 100%;
+    }
+
+    .boxed {
+        max-width: 768px;
+    }
+
+    .header-left {
+        display:inline-block;
+        color:#ffffff;
+        font-size: 30px;
+        
+        
+    }
+
+    .header-right {
+        float: right;
+        color: #cccccc;  
+        
+    }
+}
+
+@media screen and (min-width:640px){
+    #container{
+        width: 100%;
+    }
+
+    .header-left {
+        display:inline block;
+        color:#ffffff;
+        font-size: 20px;
+        
+    }
+
+    .header-right {
+        float: right;
+        color:#cccccc;
+     
+    }
+
+}
